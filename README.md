@@ -25,6 +25,15 @@
 
 最后文章希望可以激励更多研究者探索更加高效的fine-tuning方法到大型视觉模型上。
 
+## 数据集介绍：Cifar100
+
+链接：http://www.cs.toronto.edu/~kriz/cifar.html
+
+![](https://ai-studio-static-online.cdn.bcebos.com/7baff8d84907478294ca778385fca688741d14db13d841c39f0125c41f0a0ac4)
+
+
+CIFAR100数据集有100个类。每个类有600张大小为32 × 32 32\times 3232×32的彩色图像，其中500张作为训练集，100张作为测试集。
+
 ## 数据集介绍：Cifar10
 
 链接：http://www.cs.toronto.edu/~kriz/cifar.html
@@ -34,4 +43,3 @@
 **CIFAR-10**是一个更接近普适物体的彩色图像数据集。CIFAR-10 是由Hinton 的学生Alex Krizhevsky 和Ilya Sutskever 整理的一个用于识别普适物体的小型数据集。一共包含10 个类别的RGB彩色图片：**飞机**(airplane)、**汽车**(automobile)、**鸟类**(bird)、**猫**(cat)、**鹿**(deer)、**狗**(dog)、**蛙类**(frog)、马(horse)、**船**(ship)和**卡车**(truck).
 
 每个图片的尺寸为 $32\times 32$，每个类别有**6000**个图像，数据集中一共有**50000**张训练图片和**10000**张测试图片。
-
